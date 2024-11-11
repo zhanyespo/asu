@@ -1,0 +1,63 @@
+1. Question 3: Monte Carlo integration and expected loss.
+   - R Tools: Use `for` loops or the `replicate` function for simulation, and `plot()` for visualization.
+   - Functions: `dgamma()` and `qgamma()` for the Gamma distribution, along with `mean()` and `var()` for expected loss calculations.
+
+2. Question 4: Monty Hall simulation.
+   - R Tools: Use `sample()` for random selection and `for` loop for repeated trials.
+   - Functions: `sample()` for door choices, `table()` or `prop.table()` to analyze results.
+
+3. Question 7: Simulation to compare frequentist confidence intervals and Bayesian credible intervals.
+   - R Tools: `prop.test()` for confidence intervals, custom functions for Bayesian credible intervals.
+   - Functions: Use simulation functions like `replicate()` along with `prop.test()` for frequentist intervals, and `qbeta()` for Bayesian intervals.
+
+4. Question 8: Simulate from a logistic distribution using uniform variables.
+   - R Tools: Create a custom function for the logistic transformation, use `runif()` for uniform random variables.
+   - Functions: `runif()`, `hist()` for visualization, and `mean()` for probability estimation.
+
+5. Question 9: Metropolis-Hastings algorithm.
+   - R Tools: Use loops for sampling, write a function for acceptance probabilities.
+   - Functions: `dnorm()` for calculating probabilities, `sample()` for proposal distribution, and custom code for the acceptance step.
+
+6. Question 11: Conjugate analysis of log-transformed data.
+   - R Tools: Use `log()` transformation, and `dnorm()` for normal distribution.
+   - Functions: `rnorm()` for prior and posterior sampling, `exp()` to transform back from log-space.
+
+7. Question 12: Hierarchical normal model with Gibbs sampling.
+   - R Tools: Use Gibbs sampler, and analyze convergence with `coda` package functions.
+   - Functions: `rnorm()` for normal priors and posteriors, `mean()` and `quantile()` for credible intervals.
+
+8. Question 13: Hierarchical model for bicycle counts.
+   - R Tools: Define a binomial likelihood and beta prior, Gibbs sampling or JAGS package for Bayesian analysis.
+   - Functions: `dbinom()`, `rbeta()` for Beta-Binomial model, `hist()` for visualization.
+
+9. Question 14: Comparison of `prop.test` with Bayesian Beta-binomial analysis.
+   - R Tools: Run `prop.test()` and compare results to a Bayesian approach with a mixture of Beta distributions.
+   - Functions: `prop.test()`, `dbeta()`, and `rbeta()` for simulations.
+
+10. Question 15: Gaussian mixture model.
+    - R Tools: Use EM algorithm or `mclust` package for mixture modeling.
+    - Functions: `mixEM()` from `mixtools` or `Mclust()` from `mclust` package.
+
+11. Question 16: Linear regression with prior predictive distribution.
+    - R Tools: `lm()` for ordinary least squares, and custom code for Bayesian predictive distribution.
+    - Functions: `lm()`, `rnorm()` for sampling from normal distribution priors.
+
+12. Question 17: Comparison of Bayesian regression and OLS.
+    - R Tools: Use `lm()` for OLS, and custom Bayesian regression or `MCMCpack` for Bayesian comparison.
+    - Functions: `lm()`, `posteriormean()` in custom function for Bayesian estimates.
+
+13. Question 18: Probit regression with Stochastic Search Variable Selection (SSVS).
+    - R Tools: `glm()` for probit model, `bayesm` for SSVS, ROC analysis with `pROC` package.
+    - Functions: `glm(family = binomial(link = "probit"))`, `roc()` from `pROC`.
+
+14. Question 19: Gaussian Process with added nugget effect.
+    - R Tools: `kernlab` package for Gaussian processes, add a diagonal element to covariance matrix.
+    - Functions: `gausspr()` for Gaussian processes, matrix operations for the nugget effect.
+
+15. Question 20: Factor model with sparsity priors.
+    - R Tools: Custom code or use `factanal()` with sparsity controls.
+    - Functions: `factanal()`, custom Gibbs sampler.
+
+16. Question 21: Probit formulation in a factor model for binary data.
+    - R Tools: Use `bayesm` for probit regression and factor analysis.
+    - Functions: `probitB` from `bayesm`.
