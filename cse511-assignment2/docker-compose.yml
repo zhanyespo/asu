@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  cse511-assignment2:
+    image: veedata/cse511-assignment2
+    container_name: cse511-assignment2
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./assignment2-template/cse511:/root/cse511
+      - ./data:/root/cse511-data
+    working_dir: /root/cse511

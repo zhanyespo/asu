@@ -1,0 +1,1 @@
+{"obstacles": {"Table": {"count": 4, "file": "/home/kp/.gazebo/models/cafe_table/meshes/cafe_table.dae", "scale": [0.4, 0.4, 0.4]}}, "bounding": {"DAEBounding": {"count": 1, "file": "/home/kp/.gazebo/models/world/meshes/world_final.dae", "scale": [0.4, 0.4, 0.4]}}, "goal": {"Cake": {"count": 1, "file": "/home/kp/.gazebo/models/cake/meshes/model.dae", "scale": [0.3, 0.3, 0.3]}}}

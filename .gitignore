@@ -1,0 +1,231 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+*.ico
+*.txt
+.part-*
+build.*
+*.csv
+*.zip
+book_*
+*.sdf
+
+*/models/
+
+.env
+.env_sample
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.pytype/
+/.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Notebook outputs
+*.nbconvert.ipynb
+
+# Spark / SBT / Java / Scala
+target/
+project/target/
+project/project/
+*.class
+*.jar
+spark-warehouse/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+
+# Docker / DB data
+**/pgdata/
+docker-compose.override.yml
+.env
+.env.*
+
+# Logs and temp
+logs/
+**/logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# Backup / swap
+*.swp
+*.swo
+*~
+
+# Coverage and reports
+coverage/
+htmlcov/
+
+# Misc
+.DS_Store
+Thumbs.db
+.cache/
+*.sqlite3
+*.db
+
+# Python bytecode
+*.pyc
+
+# Ignore build artifacts in any subproject
+**/build/
+**/dist/
+**/target/
+
+# Keep this file tracked
+!.gitignore
+
+# --- Consolidated entries from subfolders ---
+
+# Project-specific exceptions (keep these tracked)
+!cse511-assignment2/assignment2-template/cse511/src/main/scala/CSE511-assembly-0.1.0.jar
+!cse511-assignment2/data/arealm10000.csv
+!cse511-assignment2/data/zcta10000.csv
+
+# Common folders to ignore
+**/pgdata/
+**/spark-warehouse/
+**/target/
+**/build/
+**/dist/
+**/node_modules/
+
+# Python environments & caches
+.venv/
+venv/
+env/
+/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pytype/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Common build artifacts and packages
+*.egg-info/
+*.egg
+*.whl
+*.so
+*.class
+*.jar
+
+# Logs, temp, caches
+logs/
+**/logs/
+*.log
+.cache/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Notebook/IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker / env
+.env
+.env.*
+docker-compose.override.yml
+
+# SBT / Java / Scala / Spark
+project/target/
+project/project/
+*.class
+
+# Node logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+
+# Data and model artifacts (common ML files)
+*.pkl
+*.pickle
+*.joblib
+*.tfevents
+catboost_info/
+runs/
+profile.txt
+*checkpoint*
+*cache*
+
+*.mp4
+*.avi
+*.mkv
+
+# Spark/Hadoop output markers and partial files
+**/*_SUCCESS*
+**/_SUCCESS
+_SUCCESS
+**/part-*
+part-*
+**/*.part
+*.part
+
+# Misc files seen in subprojects
+data/
+Assignment-3/cse511/src/resources/
+Project-1-zyesposs/data/
+task-temp-directory/
+.bsp/
+.project/
+
+# Keep the root gitignore itself tracked
+!.gitignore
+

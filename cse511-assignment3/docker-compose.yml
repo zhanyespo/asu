@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  spark-hotspot:
+    image: veedata/cse511-assignment3:latest
+    container_name: spark-hotspot
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./cse511:/root/cse511
+    working_dir: /root/cse511

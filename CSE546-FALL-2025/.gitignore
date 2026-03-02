@@ -1,0 +1,15 @@
+venv/
+
+.log*
+dataset/
+terraform/
+
+scripts/
+
+
+pycache/*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+submissions/

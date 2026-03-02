@@ -1,0 +1,8 @@
+# project some folder was ingored.
+/pgdata
+/cse511/subreddits.csv
+
+# ingored python cache
+__pycache__/
+*.py[cod]
+
